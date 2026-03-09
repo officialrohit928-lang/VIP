@@ -20,8 +20,6 @@ heroku()
 
 sudo()
 
-vipboy()
-
 app = VIPBot()
 
 userbot = Userbot()
