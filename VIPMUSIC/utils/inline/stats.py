@@ -9,7 +9,7 @@
 #
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VIPMUSIC import app
+from VIPMUSIC.core.app import app
 
 
 def back_stats_markup(_):
