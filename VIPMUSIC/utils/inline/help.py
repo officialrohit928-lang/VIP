@@ -10,7 +10,7 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import SUPPORT_GROUP
-from VIPMUSIC import app
+from VIPMUSIC.core.app import app
 
 
 def support_group_markup(_):
