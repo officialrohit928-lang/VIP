@@ -7,10 +7,8 @@
 #
 # All rights reserved.
 import asyncio
-import uvloop
 import importlib
 
-asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
 
