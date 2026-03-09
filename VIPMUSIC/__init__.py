@@ -26,7 +26,15 @@ app = VIPBot()
 
 userbot = Userbot()
 
-from .platforms import *
+from VIPMUSIC.platforms import (
+    YouTubeAPI,
+    CarbonAPI,
+    SpotifyAPI,
+    AppleAPI,
+    RessoAPI,
+    SoundAPI,
+    TeleAPI
+)
 
 YouTube = YouTubeAPI()
 Carbon = CarbonAPI()
