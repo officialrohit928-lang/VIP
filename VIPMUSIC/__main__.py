@@ -9,6 +9,9 @@
 import asyncio
 import importlib
 
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
+
 from pyrogram import idle
 
 import config
