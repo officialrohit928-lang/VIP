@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardButton
 
 import config
 from config import SUPPORT_GROUP
-from VIPMUSIC import app
+from VIPMUSIC.core.app import app
 
 
 def start_pannel(_):
